@@ -16,6 +16,9 @@ public class reversethestring {
                     reverse2 = reverse2 + reverse1.charAt((reverse1.length()-1)-i);         	
 					
 				}
+                System.out.printf("Missing numbers in integer array %s, with total number %d is %n", Arrays.toString(numbers), count);
+
+                Read more: https://javarevisited.blogspot.com/2014/11/how-to-find-missing-number-on-integer-array-java.html#ixzz5MxXllPld
                 System.out.println(reverse2);
                 
 	}
